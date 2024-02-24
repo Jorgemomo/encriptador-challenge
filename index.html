@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Encriptador challenge</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container__header">
+        <img src="./img/Top.svg" alt="logo-alura" class="nav__logo" />
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <textarea
+          name="text_encript"
+          id=""
+          cols="30"
+          rows="8"
+          placeholder="Ingrese el texto aqui"
+          class="input__text"
+        ></textarea>
+      </section>
+
+      <section class="container">
+        <p class="text__minus">
+          <img src="./img/signo.svg" alt="signo" /><span
+            class="text__minus__position"
+            >Solo letras minúsculas y sin acentos</span
+          >
+        </p>
+      </section>
+
+      <section class="buttons">
+        <button class="btn__cript">Encriptar</button>
+        <button class="btn__uncript">Desencriptar</button>
+      </section>
+
+      <section class="container showText">
+        <div class="showText__encript">
+          <div class="text__desktop--form">
+            <h2 class="text__noFound">Ningún mensaje fue encontrado</h2>
+            <p class="input__text--encript">
+              Ingresa el texto que desees encriptar o desencriptar
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyRight">&copy; 2024 - Desarrollado por: Jorge Morales</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
