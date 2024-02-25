@@ -78,12 +78,19 @@ body {
   color: #0a3871;
   margin-bottom: 15px;
   background-color: transparent;
+  transition: all 0.5s;
 }
 
 .btn__copy {
   margin-top: 35px;
   padding-left: 0;
   width: 100%;
+
+  &:hover {
+    color: #e5e5e5;
+    background-color: #0a3871;
+    transition: all 0.5s;
+  }
 }
 
 .showText {
