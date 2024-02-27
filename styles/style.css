@@ -33,6 +33,7 @@ body {
   width: 90%;
   outline: 0 none;
   resize: none;
+  text-transform: lowercase;
 }
 
 .input__text::placeholder {
